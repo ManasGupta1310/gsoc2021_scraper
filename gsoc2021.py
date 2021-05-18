@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-csv_file=open('gosc2021.csv', 'w', encoding="utf-8")
+csv_file=open('gsoc2021.csv', 'w', encoding="utf-8")
 
 csv_writer=csv.writer(csv_file)
 csv_writer.writerow(['Name', 'Organization', 'Project'])
